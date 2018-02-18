@@ -16,12 +16,12 @@ Create a new tmux session
 tmux
 ```
 
-Create a new window inside the session
+Create a new window
 ```
 Control-b c
 ```
 
-List and switch between windows in the current session
+List and switch between windows
 ```
 Control-b w
 ```
@@ -31,7 +31,7 @@ Rename the current window
 Control-b ,
 ```
 
-Detach from tmux, everything stays running.
+Detach from the tmux session. Everything stays running.
 ```
 Control-b d
 ```
@@ -46,12 +46,12 @@ Rename the current session
 Control-b $
 ```
 
-Attach to the last session, don't create a new one.
+Attach to the last session. Don't create a new one.
 ```
 tmux a
 ```
 
-Attach to a session called foo. Any unique prefix of the session name will work.
+Attach to a session called foo. Any unique prefix of the name will work.
 ```
 tmux a -t foo
 ```
