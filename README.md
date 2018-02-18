@@ -56,6 +56,12 @@ Attach to a session called foo. Any unique prefix of the name will work.
 tmux a -t foo
 ```
 
+Is the session small and do you see dots or periods? Are you attached somewhere else? Detach other clients.
+```
+tmux a -d -t foo
+```
+
+
 ## Step 2
 Cut and paste  
 Coming soon...
