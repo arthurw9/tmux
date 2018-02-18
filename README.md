@@ -55,3 +55,7 @@ Attach to a session called foo. Any unique prefix of the session name will work.
 ```
 tmux a -t foo
 ```
+
+## Step 2
+Cut and paste  
+Coming soon...
